@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Pollock Artify",
+    "slug": "pollock-artify",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.monnte.pollockartify"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.monnte.pollockartify"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "17fa4006-9fbd-4041-8e08-c5190547ba8a"
+      }
+    }
+  }
+}
